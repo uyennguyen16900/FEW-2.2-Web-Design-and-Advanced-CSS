@@ -1,0 +1,161 @@
+.button-1 {
+  background-color: #569cd1;
+  border: 1px solid;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.button-1:hover {
+  background-color: #fff;
+  color: #569cd1;
+}
+
+.button-2 {
+  background-color: #fff;
+  border: none;
+  color: #569cd1;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+.button-2:hover {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  letter-spacing: 4px;
+  /* width:  */
+}
+
+.button-3 {
+  background-color: #fff;
+  border: 1px solid #569cd1;
+  color: #569cd1;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.button-3:hover {
+  background-color: #569cd1;
+  color: #fff;
+}
+
+.hamburger {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.bar {
+  width: 60px;
+  height: 10px;
+  background-color: black;
+  transition: 400ms;
+  margin: 10px 20px;
+}
+
+.bar-1 {
+  margin-top: 25px;
+}
+
+.hamburger-1:hover {
+  background-color: black;
+}
+
+
+.hamburger-1:hover .bar-1{
+  background-color: #fff;
+  transform: translateY(20px) rotate(45deg);
+}
+
+.hamburger-1:hover .bar-2 {
+  opacity: 0;
+}
+
+
+.hamburger-1:hover .bar-3{
+  background-color: #fff;
+  transform: translateY(-20px) rotate(-45deg);
+}
+
+.hamburger-2:hover {
+  background-color: black;
+}
+
+.hamburger-2:hover .bar-1{
+  background-color: #fff;
+  width: 40px;
+  transform: rotate(-45deg) translateX(-13px);
+}
+
+.hamburger-2:hover .bar-2{
+  background-color: #fff;
+}
+
+.hamburger-2:hover .bar-3{
+  background-color: #fff;
+  width: 40px;
+  transform: rotate(45deg) translateX(-13px);
+}
+
+.hamburger-3:hover {
+  background-color: black;
+}
+
+.hamburger-3:hover .bar-1{
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50% 50%;
+  border: 10px solid white;
+  transform: translate(-10px, -15px);
+}
+
+.hamburger-3:hover .bar-2 {
+  width: 50px;
+  background-color: #fff;
+  transform: translate(5px, -70px) rotate(45deg);
+}
+
+.hamburger-3:hover .bar-3 {
+  width: 50px;
+  background-color: #fff;
+  transform: translate(5px, -90px) rotate(-45deg);
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  display: block;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.65) rotate(0);
+  transition: 400ms; */
+
+}
+
+.kitten {
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  position: relative;
+  overflow: hidden;
+}
+
+.kitten:hover > img{
+  transform: rotate(30);
+
+}
