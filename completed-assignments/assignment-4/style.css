@@ -7,95 +7,99 @@
 }
 
 /* .petals {
-  animation: rotateFlower 6s infinite;
+animation: rotateFlower 6s infinite;
 } */
-
 @keyframes rotateFlower {
-  0% { transform: rotate(0);}
-  50% { transform: rotate(360deg) translateY(-150px);}
-  100% { transform: rotate(-360deg);}
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(360deg) translateY(-150px);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
-
 .petal {
-  width:100px;
-  height:30px;
+  width: 100px;
+  height: 30px;
   border-radius: 100px 100px;
   position: absolute;
   transform-origin: left;
 }
 
 .petal:nth-child(1) {
-  background-color:#eb3492;
   transform: rotate(30deg);
+  background-color: #ef6f6d;
 }
 
 .petal:nth-child(2) {
-  background-color:#f27eb0;
   transform: rotate(60deg);
+  background-color: #efb06d;
 }
 
 .petal:nth-child(3) {
-  background-color:#e88043;
   transform: rotate(90deg);
+  background-color: #edef6d;
 }
 
 .petal:nth-child(4) {
-  background-color:#faa51b;
   transform: rotate(120deg);
+  background-color: #acef6d;
 }
 
 .petal:nth-child(5) {
-  background-color:yellow;
   transform: rotate(150deg);
+  background-color: #6def6f;
 }
 
 .petal:nth-child(6) {
-  background-color:#85e65c;
   transform: rotate(180deg);
+  background-color: #6defb0;
 }
 
 .petal:nth-child(7) {
-  background-color:#9df5d6;
   transform: rotate(210deg);
+  background-color: #6dedef;
 }
 
 .petal:nth-child(8) {
-  background-color:#52edf2;
   transform: rotate(240deg);
+  background-color: #6dacef;
 }
 
 .petal:nth-child(9) {
-  background-color:blue;
   transform: rotate(270deg);
+  background-color: #6f6def;
 }
 
 .petal:nth-child(10) {
-  background-color:#8417b3;
   transform: rotate(300deg);
+  background-color: #b06def;
 }
 
 .petal:nth-child(11) {
-  background-color:#bc6edb;
   transform: rotate(330deg);
+  background-color: #ef6ded;
 }
 
 .petal:nth-child(12) {
-  background-color:#db2547;
   transform: rotate(360deg);
+  background-color: #ef6dac;
 }
 
 .face {
-  width:90px;
-  height:90px;
+  width: 90px;
+  height: 90px;
   border-radius: 50% 50%;
-  background-color:yellow;
+  background-color: yellow;
   position: absolute;
   transform: translate(-44px, -30px);
 }
 
 .eye {
-  width:20px;
-  height:50px;
+  width: 20px;
+  height: 50px;
   border-radius: 50px 50px;
   position: absolute;
   border-top: 4px solid black;
@@ -111,10 +115,10 @@
 }
 
 /* .eye {
-  width: 20px;
-  height: 20px;
-  background-color: black;
-  border-radius: 50%;
+width: 20px;
+height: 20px;
+background-color: black;
+border-radius: 50%;
 }
 
 .right {
@@ -141,8 +145,6 @@ border-radius: 50%;
 top: 10px;
 transform: translate(15px; 10px;);
 } */
-
-
 .mouth {
   background-color: red;
   display: inline-block;
@@ -175,10 +177,12 @@ transform: translate(15px; 10px;);
 }
 
 /* .mouth {
-  width: 12px;
-  height: 9px;
-  background-color: red;
-  border-radius: 50% 50%;
-  transform: translate(40px, 10px);
-  animation: scale 5s infinite;
+width: 12px;
+height: 9px;
+background-color: red;
+border-radius: 50% 50%;
+transform: translate(40px, 10px);
+animation: scale 5s infinite;
 } */
+
+/*# sourceMappingURL=style.css.map */
