@@ -1,0 +1,92 @@
+// set variables
+$size: 100px;
+$color: hsla(180, 100%, 50%, 0.21);
+$border: 1px solid;
+
+/* Container styles */
+.container {
+  width: $size * 2;
+  height: $size * 2;
+  border: $border;
+  position: relative;
+
+/* Style all of the child divs */
+/* These styles shared by all children */
+  div {
+    position: absolute;
+    border-radius: 0 70% 40% 70%;
+    border: $border;
+    width: $size + 20;
+    height: $size + 20;
+    /* Position these in the center */
+    left: $size / 10;
+    top: $size / 2;
+    /* Rotate 45 deg points the point at the top */
+    transform: rotate(45deg);
+    /* Move the point of transformation to the lower right */
+    transform-origin: $size - 10 $size - 10;
+    animation-duration: 6000ms;
+    animation-iteration-count: 1;
+    /* Important! Without this the elements will snap
+    to their starting positions when the animation ends! */
+    animation-fill-mode: forwards;
+  }
+  /* These styles apply to individual children */
+  // Use a loop
+  @for $i from 1 through 5 {
+    div:nth-child(#{$i}) {
+      animation-name: bloom-#{$i};
+      background-color: $color;
+    }
+  }
+
+    > div:nth-child(1) {
+        background-color: rgba(255, 0, 0, 0.21);
+    }
+
+    > div:nth-child(2) {
+        background-color: rgba(255, 255, 0, 0.21);
+    }
+
+    > div:nth-child(3) {
+        background-color: rgba(0, 255, 0, 0.21);
+    }
+
+    > div:nth-child(4) {
+        background-color: rgba(0, 255, 255, 0.21);
+    }
+
+    > div:nth-child(5) {
+        background-color: rgba(0, 0, 255, 0.21);
+    }
+}
+  
+@keyframes bloom-1 {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(-45deg); }
+}
+
+@keyframes bloom-2 {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(135deg); }
+}
+
+@keyframes bloom-4 {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes bloom-5 {
+  0% { transform: rotate(45deg); }
+  100% { transform: rotate(90deg); }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, html {
+  height: 100%;
+}
