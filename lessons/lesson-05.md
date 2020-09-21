@@ -15,6 +15,35 @@ Besides making your CSS code skills up to date it will empower your projects wit
 3. Use Math operations in CSS with calc()
 4. Use Reset CSS to remove browser inconsistencies
 
+## Styling buttons 
+
+Before we start styling buttons we need to answer these questions:
+
+- What's a button? 
+- When do we use them? 
+- What do they look like? 
+
+Before you start to design your buttons it's good to take a look at what other people are doing. Take a look at these: 
+
+- https://getbootstrap.com/docs/4.5/components/buttons/
+- https://get.foundation/sites/docs/button.html
+- https://material.io/components/buttons
+
+Now answer these questions:
+
+- What properties do you see here? 
+- What different styles are offered?
+
+### Making your buttons
+
+Let's start by emulating the ideas in Bootstrap, Foundation, and Material. These are part of a larger language of what people consider "buttons". 
+
+Start with this Repl. 
+
+https://repl.it/join/evglxucp-mitchellhudson
+
+Using the Repl above create a style for the button. 
+
 ## CSS Custom Properties
 
 CSS Custom Properties let you define variables in CSS. You're defining a new CSS property, hence the name. In use, it feels like variables that you are familiar with from other languages. 
@@ -124,6 +153,8 @@ For example, you might define some values in `:root` then use those values throu
 
 ### Design a Button 
 
+Using your button take the ideas below to use custom properties to make your button code more flexible. 
+
 The default button style is not very interesting it's also pretty small. Giving the button some color and making it a little larger will make it easier to use. 
 
 ```css
@@ -171,9 +202,9 @@ button:hover {
 }
 ```
 
-Now the colors can be edited one location. 
+Now the colors can be edited in one location. 
 
-You'll often want buttons with different colors for different purposes. 
+You'll often want buttons with different colors for different purposes. Look at the button styles in Bootstrap. Your goal is to emulate some of these. 
 
 To change the colors and other styles of buttons using custom properties become very flexible. 
 
@@ -185,7 +216,7 @@ button.warning {
 }
 
 button.action {
- --fg-color: yellowgreen; /* Green button */
+  --fg-color: yellowgreen; /* Green button */
 }
 ```
 
@@ -194,6 +225,12 @@ button.action {
 <button class="warning">Delete</button>
 <button class="action">Buy Now!</button>
 ```
+
+**In your button example create classes for:**
+
+- Success 
+- Alert 
+- Dark
 
 What if you want to have an inverted style for your buttons? Using custom properties you can add a class that switches where the colors are applied. 
 
@@ -214,6 +251,8 @@ button.invert:hover {
 ```html
 <button class="warning invert">Delete</button>
 ```
+
+**Add an inverted style to your button styles**
 
 What if you want to customize the color of the button? You could write another class or you could set color properties inline.
 
@@ -452,11 +491,10 @@ Clarify what you are doing by looking at what other people are doing who are doi
 
 ## Additional Resources
 
-1. assignment-05-framework-fonts.md
-2. https://www.sitepoint.com/css-theming-custom-properties-javascript/
-3. https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd
-4. https://css-tricks.com/css-custom-properties-theming/
-5. https://github.com/troxler/awesome-css-frameworks
+1. https://www.sitepoint.com/css-theming-custom-properties-javascript/
+1. https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd
+1. https://css-tricks.com/css-custom-properties-theming/
+1. https://github.com/troxler/awesome-css-frameworks
 
 ## Minute-by-Minute [OPTIONAL]
 

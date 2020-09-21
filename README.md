@@ -14,6 +14,12 @@ CSS is a language that is responsible for the appearance of you web apps. To mak
 
 - [FEW 1.1](https://github.com/Make-School-Courses/FEW-1.1-Web-Foundations)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 Students by the end of the course will be able to:
@@ -35,27 +41,21 @@ Beyond these you should be able to apply CSS like a boss and bring your ideas to
 
 | Class  |  Date | Topics | Assignment |
 |:------:|:------|:-------|:-----------|
-|  1 |  Mon, June 1   | [Drawing with CSS](lessons/lesson-01.md) | [CSS Drawing](./Assignments/assignment-01.md) |
-|  2 |  Wed, June 3   | [CSS Drawing Lab] | [CSS Drawing part 2](./Assignments/assignment-02-css-drawing.md) |
-|  3 |  Fri, June 5   | [Animation with CSS](lessons/lesson-02.md) | [Animation Challenges](./Assignments/assignment-03-Animation.md) |
-|  4 |  Mon, June 8   | [CSS Animation with Keyframes](lessons/lesson-02.md) | [Animate your Drawing](./Assignments/assignment-04-Animate-Logo.md) |
-|  5 |  Wed, June 10  | [SASS](lessons/lesson-03.md) | [SASS Tutorial](./Assignments/assignment-06-SASS-part-1.md) |
-|  6 |  Fri, June 12  | [SASS Lab] | [Apply SASS to previous assignment](./Assignments/assignment-06-SASS-part-2.md) |
-|  7 |  Mon, June 15  | - | [Apply SASS to previous Project](./Assignments/assignment-06-SASS-part-3.md) |
-|  8 |  Wed, June 17  | - | - |
-|  9 |  Fri, June 19  | [Typography](lessons/lesson-04.md) | [Improve your Typography](./Assignments/assignment-07-typography.md) |
-| 10 |  Mon, June 22  | [CSS Custom Properties](lessons/lesson-05.md) | [Start your Framework: Fonts](./Assignments/assignment-06-framework-fonts.md)  |
-| 11 |  Wed, June 24  | [CSS Custom Properties pt. 2](lessons/lesson-06.md) | [Framework: Controls](./Assignments/assignment-07-controls.md) |
-| 12 |  Fri, June 26  | [Styling Forms](lessons/lesson-06.md) | [Add form styles](./Assignments/assignment-09-controls.md) |
-| 13 |  Mon, June 29  | [Content Elements](lessons/lesson-07.md) | - |
-| 14 |  Wed, July 1   | [Web Component Intro](lessons/lesson-08.md) |  
-| -  |  Fri, July 3   | **NO CLASS - INDEPENDENCE DAY OBSERVED**|
-| 15 |  Mon, July 6   | [Web Components Part 1](lessons/lesson-09.md) | - |
-| 16 |  Wed, July 8   | [Web Components Lab](lessons/lesson-10.md) | - |
-| 17 |  Fri, July 10  | [Web Components Part 2](lessons/lesson-11.md) | - |
-| 18 |  Mon, July 13  | [Final Assignment Lab] | - |
-| 19 |  Wed, July 15  | [Final Assessment](lessons/lesson-12.md) | - |
-| 20 |  Fri, July 17  | [Final Presentations](lessons/lesson-13.md) | - |
+|  1 | Wed, August 19 | [Drawing with CSS](lessons/lesson-01.md) | [CSS Drawing](./Assignments/assignment-01.md) |
+|  2 | Mon, August 24 | [Animation with CSS](lessons/lesson-02.md) | [CSS Drawing part 2](./Assignments/assignment-02-css-drawing.md) |
+|  3 | Wed, August 26 | [CSS Animation with Keyframes](lessons/lesson-02.md) | [Animation Challenges](./Assignments/assignment-03-Animation.md) |
+|  4 | Mon, August 31 | [SASS](lessons/lesson-03.md) | [SASS Part 1](./Assignments/assignment-06-SASS-part-1.md) [SASS Part 2](./Assignments/assignment-06-SASS-part-2.md) |
+|  5 | Wed, September 2 | [Typography](lessons/lesson-04.md) | [SASS Part 3](./Assignments/assignment-06-SASS-part-3.md) |
+|  6 | Mon, September 7 | Labor Day - No class | - |
+|  7 | Wed, September 9 | [CSS Custom Properties](lessons/lesson-05.md) | [Starting your Framework](./Assignments/assignment-07-framework.md) |
+|  8 | Mon, September 14 | [Nav Bars](lessons/lesson-07.md) | [Continue your framework](./Assignments/project-css-framework.md) |
+|  9 | Wed, September 16 | [Pseudo Elements](lessons/lesson-08.md) | [Add form styles](./Assignments/assignment-09-controls.md) |
+| 10 | Mon, September 21 | [Web Component Intro](lessons/lesson-08.md) | Continue working on CSS Framework |
+| 11 | Wed, September 23 | [Web Components Part 1](lessons/lesson-09.md) | Continue working on CSS Framework |
+| 12 | Mon, September 28 | [Web Components Lab](lessons/lesson-10.md) | Continue working on CSS Framework |
+| 13 | Wed, September 30 | [Web Components Part 2](lessons/lesson-11.md) | Continue working on CSS Framework |
+| 14 | Mon, October 5 | [Final Assessment](lessons/lesson-12.md) | - |
+| 15 | Wed, October 7 | [Final Presentations](lessons/lesson-13.md) | - |
 
 ## Class Assignments
 
@@ -95,6 +95,12 @@ To pass this course you must meet the following requirements:
 - Achieve a passing score on the final assessment
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 

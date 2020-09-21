@@ -2,9 +2,15 @@
 
 Your CSS framework should support the following features. Use this checklist to mark off each feature as you complete it. 
 
+Your goal is to check off everything in this list. 
+
+These things don't need to be extensively styled. Some may not need a style. They all need your consideration. Take a look at each item and see how it looks under your CSS framework. To see the style you should mock it up in your demo documentation. 
+
+Check off each item as you complete it. 
+
 - Setup name made a repo
-  - [ ] Named your framework
-  - [ ] Made a repo
+  - [x] Named your framework
+  - [x] Made a repo
   - [ ] Stretch: organize files in folders
   - Font styles styled basic text elements
   - [ ] Defined a font stack on the body 
@@ -41,3 +47,5 @@ Your CSS framework should support the following features. Use this checklist to 
   - [ ] You have at least one web component
   - [ ] Document your web component
   - [ ] Stretch: You have a second web component
+
+  
