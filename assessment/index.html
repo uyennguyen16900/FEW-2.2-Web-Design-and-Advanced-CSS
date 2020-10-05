@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="./css/style.css">
 		<title></title>
 	</head>
 	<body>
 
 		<!-- Base Styles - Set the base styles for the page -->
 
-		<main>
-
 			<!-- navbar - Style the navbar -->
-			<section id="nav">
-				<header>
-					<nav>
-						<a href="#">Color.com</a>
-						<a href="#about">About</a>
-						<a href="#popular">Popular</a>
-						<a href="#swatches">Swatches</a>
-						<a href="#cart">Order</a>
-						<a href="#contact">Contact</a>
-					</nav>
-				</header>
-			</section>
+			<div class="navbar sticky dark">
+				<ul>
+					<li><h1 class="title">UN</h1></li>
+					<li><a href="#">Color.com</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#popular">Popular</a></li>
+					<li><a href="#swatches">Swatches</a></li>
+					<li><a href="#cart">Order</a></li>
+					<li><a href="#contact">Contact</a></li>
+		
+				</div>
+			</ul>
 
-			<!-- banner -->
-			<section>
+			<!-- Ticker -->
+			<!-- <section>
 				<ticker-tape><h1>...Color.com is awesome...</h1></ticker-tape>
-			</section>
+			</section> -->
+
+			<div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
+				<div class="ticker-item"><h3>...Color.com is awesome...</h3></div>
+			</div></div></div>
 
 
 			<!-- section about - -->
-			<section id="about">
+			<section id="about" style="margin-top:50px">
 				<header>
 					<h1>What is color?</h1>
 				</header>
 				<p><strong>Color</strong> (American English), or colour (Commonwealth English), is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of photoreceptor cells (in particular cone cells in the human eye and other vertebrate eyes) by electromagnetic radiation (in the visible spectrum in the case of humans).</p>
-				<p>Color is really important for making great <abbr title="Cascading Style Sheets">CSS</abbr> styles. <a href="#">Color.com is the most amazing place to get your colors.</a></p>
+				<p>Color is really important for making great <abbr title="Cascading Style Sheets">CSS</abbr> styles. <a class="link" href="#">Color.com is the most amazing place to get your colors.</a></p>
 			</section>
 
 
@@ -43,19 +46,27 @@
 			<!-- Section Color Cards - This section contains three cards Style these -->
 			<section id="popular">
 				<div class="card">
-					<img src="images/600px-64_365_Color_Macro.jpg">
-					<p>Colored Pencils</p>
+					<img src="images/600px-64_365_Color_Macro.jpg" alt="Colored Pencils" style="width:100%">
+					<div class="container">
+					  <p>Colored Pencils</p> 
+					</div>
+				</div>
+				  
+
+				<div class="card">
+					<img src="images/600px-Nasir-al_molk.jpg" alt="Color Effect" style="width:100%">
+					<div class="container">
+					  <p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p> 
+					</div>
 				</div>
 
 				<div class="card">
-					<img src="images/600px-Nasir-al_molk.jpg">
-					<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p>
+					<img src="images/600px-Chubb_Illusion.png" alt="Colors" style="width:100%">
+					<div class="container">
+					  <p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p> 
+					</div>
 				</div>
-
-				<div class="card">
-					<img src="images/600px-Chubb_Illusion.png">
-					<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
-				</div>
+			
 			</section>
 
 
@@ -95,7 +106,7 @@
 				<div>
 					<form>
 						<label>
-							name
+							Name
 							<input type="text">
 						</label>
 
@@ -109,25 +120,27 @@
 							<textarea></textarea>
 						</label>
 
-						<label>
-							Sign up for the newsletter
-							<input type="checkbox">
+				
+						<label class="control-checkbox">Sign up for the newsletter
+							<input type="checkbox" checked="checked">
+							<span class=checkmark></span>
 						</label>
 
-						<label>
-							<input type="radio" name="Mr.">
-							Mr.
+						<label class="container-radio">Mr.
+							<input type="radio" checked="checked" name="radio">
+							<span class="checkmark-round"></span>
 						</label>
 
-						<label>
-							<input type="radio" name="Mrs.">
-							Mrs.
+						<label class="container-radio">Mrs.
+							<input type="radio" checked="checked" name="radio">
+							<span class="checkmark-round"></span>
 						</label>
 
-						<label>
-							<input type="radio" name="Ms.">
-							Ms.
+						<label class="container-radio">Ms.
+							<input type="radio" checked="checked" name="radio">
+							<span class="checkmark-round"></span>
 						</label>
+
 						<button>Submit</button>
 					</form>
 				</div>
@@ -135,27 +148,33 @@
 
 
 			<!-- Footer -->
-			<section id="footer">
-				<footer>
-					<ul>
-
-					</ul>
-				</footer>
-			</section>
-
-		</main>
+			<div class="page-footer dark">
+				<ul>
+					<li><h3>Content</h3></li>
+					<li><a href="#colors">Colors</a></li>
+					<li><a href="#navbar">Navbar</a></li>
+					<li><a href="#headings">Headings</a></li>
+					<li><a href="#type">Type</a></li>
+					<li><a href="#forms">forms</a></li>
+				</ul>
+				
+				<ul>
+					<li><h3>Resources</h3></li>
+					<li><a href="">CSS Tricks</a></li>
+					<li><a href="">CSS Tricks</a></li>
+				</ul>
+				
+			
+			</div>
+		
 
 		<style>
 			.swatch {
 				width: 100px;
 				height: 100px;
+				margin: 15px;
 			}
-
-			.swatch {
-				/* Remove this rule when you set your colors! */
-				background-color: red !important;
-				margin: 1px;
-			}
+			
 
 			main {
 				width: 600px;
@@ -276,8 +295,8 @@
 							<span>${(cart[i].qty * cart[i].price).toFixed(2)}<span>
             </span>
             <span>
-              <button class="remove" data-name="${cart[i].name}">remove</button>
-              <button class="add-one" data-name="${cart[i].name}"> + </button>
+              <button style="--font-weight: bold;--bg-color: #37393d;--border: 2px" class="remove" data-name="${cart[i].name}">remove</button>
+              <button style="--font-weight: bold;--bg-color: #b27be3;--border: 2px" class="add-one" data-name="${cart[i].name}"> + </button>
               <button class="remove-one" data-name="${cart[i].name}"> - </button>
               <input class="update" data-name="${cart[i].name}" type="number" value="${cart[i].qty}">
             </span>
